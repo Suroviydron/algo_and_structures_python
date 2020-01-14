@@ -1,4 +1,3 @@
-__author__ = 'Ablezgov Andrew'
 
 # Задача: Найти максимальный элемент среди минимальных элементов столбцов матрицы.
 from random import randint
@@ -29,7 +28,3 @@ for i in range(1, len(LIST_MIN)):
     if LIST_MIN[i] > MAX_NUMB:
         MAX_NUMB = LIST_MIN[i]
 print(f'\nМаксимальное значение среди минимальных элементов столбцов матрицы: {MAX_NUMB}')
-
-
-
-
